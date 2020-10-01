@@ -8,12 +8,14 @@
     <body>
 <main id="container">
     <header>
-        <h1>"Martins Aquarium"</h1>
+        <h1 class="martin">"Martins Aquarium"</h1>
     </header>
-
+<div class="contentContainer">
+    <div class="contentContainer__left">
     <section class="fishList">
-        <h3>Fish List</h3>
-        <div>
+        <h3 class="f__list">Fish List</h3>
+        <div class="fish">
+        <section>
             <img class="fish__image" src="https://unilaglss.files.wordpress.com/2013/09/1304072_bizarre-animals-blob-fish_jpg87187751d3467487bfa1c7b6de8410a5.jpg">
             <p>Species:</p>
             <p class="fish__species">Psychrolutes marcidus</p>
@@ -25,8 +27,8 @@
             <p class="fish__location">Off the coast of Australia</p>
             <p>Diet:</p>
             <p class="fish__diet">Deep ocean crustaceans</p>
-        </div>
-        <div>
+        </section>
+        <section>
             <img class="fish__image" src="http://4.bp.blogspot.com/-qwzGOXIH_fU/UOJYAJ92PzI/AAAAAAAAWKg/vjGO00L09OI/s1600/Lionfish+3.jpg">
             <p>Species:</p>
             <p class="fish__species">Pterois volitans</p>
@@ -38,8 +40,8 @@
             <p class="fish__location">Off the coast of Southern Japan</p>
             <p>Diet:</p>
             <p class="fish__diet">Mostly crustaceans like crab and shrimp, but will also eat other small fish.</p>
-        </div>
-        <div>
+        </section>
+        <section>
             <img class="fish__image" src="https://vignette.wikia.nocookie.net/endlessocean/images/b/bd/Moon_jelly_3.jpg/revision/latest?cb=20150823035236">
             <p>Species:</p>
             <p class="fish__species">Aurelia aurita</p>
@@ -51,52 +53,54 @@
             <p class="fish__location">Off the coast of California</p>
             <p>Diet:</p>
             <p class="fish__diet">Moon Jellyfish are carnivorous and primarily live on plankton, and other organisms like crustaceans, fish eggs and smaller jellies.</p>
-        </div>
+        </section>
+    </div>
     </section>
 
     <article class="travel">
         <section class="travel__quotes">
-            <h3>Travel Quotes</h3>
-            <div class="quote">
+            <h3 class="t__quotes">Travel Quotes</h3>
+            <section class="quote">
               <p class="quote__text">"Being lost in Australia gives you a lovely sense of security"</p>
               <p class="quote__location">Australia</p>
                 <p class="quote__author">Bruce Chatwin</p>
-            </div>
-            <div class="quote">
+            </section>
+            <section class="quote">
                 <p class="quote__text">"After spending 12 days in Japan, this revelations feels quite shocking: Tokyo is better than Paris."</p>
                 <p class="quote__location">Japan</p>
                 <p class="quote__author">Alex Vallis</p>
-            </div>
-            <div class="quote">
+            </section>
+            <section class="quote">
                 <p class="quote__text">"San Francisco is a golden handcuff with the key thrown away."</p>
                 <p class="quote__location">California</p>
                 <p class="quote__author">John Steinbeck</p>
-            </div>
+            </section>
         </section>
         
     
         <section class="travel__locations">
-            <h3>Harvesting Locations</h3>
-            <div class="locations">
+            <h3 class="h__locations">Harvesting Locations</h3>
+            <section class="locations">
                 <p class="location__name">Australia</p>
                 <img class="location__image" src="http://www.technocrazed.com/wp-content/uploads/2015/09/Towering-Cliffs-And-Colorful-Reefs-Mesmerize-You-With-Beauty-Of-Australian-Coast-139.jpg">
                 <p class="location__geo">Off the coast near Sydney</p>
-                </div>
-                <div class="locations">
+            </section>
+                <section class="locations">
                     <p class="location__name">Japan</p>
                     <img class="location__image" src="https://i.pinimg.com/originals/cb/c9/0d/cbc90df5eaefa932962e238b75d9c91d.jpg">
                     <p class="location__geo">Off the coast near Miyazaki</p>
-                </div>
-                <div class="locations">
+                </section>
+                <section class="locations">
                    <p class="location__name">California</p>
                    <img class="location__image" src="https://www.californiabeaches.com/wp-content/uploads/2017/05/bigs-dog-at-north-baker-beach-with-Golden-Gate-Bridge-behind-06-Large.jpg">
                    <p class="location__geo">Off the coast near San Francisco</p>
-                </div>
+                </section>
         </section>
     </article>
-
-    <aside>
+    </div>
+    <aside class="tipsList contentContainer__right">
         <h3 class="care__tips">Care Tips</h3>
+        <section>
         <div class="care__item">Blobfish-</div>
         <p>Tank Cleaning:</p>
         <p class="tank__cleaning">Per the conditions of the tank no cleaning is necessary because things like vegetation simply can't survive.</p>
@@ -104,13 +108,16 @@
         <p class="water__salinity">35 PPT or 35 parts salt for every 1,000 parts water.</p>
         <p>Water Temperature:</p>
         <p class="water__temp">Slightly above freezing at 36&#176 F</p>
-    <div class="care__item">Lionfish-</div>
+        </section>
+        <section>
+        <div class="care__item">Lionfish-</div>
     <p>Tank Cleaning:</p>
     <p class="tank__cleaning">Be very careful as the lionfish has venomous spines but clean the tank regularly.</p>
     <p>Water Salinity:</p>
     <p class="water__salinity">35PPT</p>
     <p>Water Temperature:</p>
     <p class="water__temp">They prefer a water temperature of around 17.5&#176 C or 63.5&#176 F.</p>
+    <section>
     <div class="care__item">Moon Jellyfish-</div>
     <p>Tank Cleaning:</p>
     <p class="tank__cleaning">Jellyfish are sensitive to rapid changes in salinity, temperature, pH, etc. Therefor their tanks must be cleaned and maintained regularly in order to keep them safe and happy.</p>
@@ -118,8 +125,9 @@
     <p class="water__salinity">35PPT</p>
     <p>Water Temperature:</p>
     <p class="water__temp">Moon Jellyfish need a water temperature of about 19&#176 C or 66&#176 F.</p>
-    </aside>
-
+    </section>
+</aside>
+</div>
 </main>
 
 <script type="module" src=".scripts/main.js"></script>

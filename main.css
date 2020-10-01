@@ -1,0 +1,17 @@
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.contentContainer {
+    display: flex;
+}
+
+section, article, aside {
+    border: 3px dashed greenyellow;
+}
+
+.fish {
+    display: flex;
+}
+
